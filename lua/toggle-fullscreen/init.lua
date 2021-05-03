@@ -1,4 +1,3 @@
--- Plugin that toggles fullscreen for the selected window
 local T = {
   win = 0,
   toggle = true,

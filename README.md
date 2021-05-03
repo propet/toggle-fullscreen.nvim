@@ -1,6 +1,6 @@
 # toggle-fullscreen.nvim
 
-Neovim lua plugin to toggle window fullscreen
+Neovim lua plugin that toggles fullscreen for the selected window
 
 # Requirements
 
