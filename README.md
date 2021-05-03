@@ -2,6 +2,8 @@
 
 Neovim lua plugin that toggles fullscreen for the selected window
 
+![](media/toggle.gif)
+
 # Requirements
 
 Neovim 0.5 or greater
