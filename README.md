@@ -4,20 +4,25 @@ Neovim lua plugin that toggles fullscreen for the selected window
 
 ![](media/toggle.gif)
 
-# Requirements
+# 📦 Installation
 
-Neovim 0.5 or greater
+With [lazy.nvim](https://github.com/folke/lazy.nvim)
 
-# Installation
-
+```lua
+{
+  "propet/toggle-fullscreen.nvim",
+  keys = {
+    {
+      "<leader>f",
+      function()
+        require("toggle-fullscreen"):toggle_fullscreen()
+      end,
+      desc = "toggle-fullscreen"
+    },
+  },
+}
 ```
-Plug 'propet/toggle-fullscreen.nvim'
-```
 
-# Mappings
+# 🚀 Usage
 
-Call the `toggle_fullscreen` function however you like
-
-```
-nnoremap <leader>f :lua require("toggle-fullscreen"):toggle_fullscreen()<CR>
-```
+Press the keymap (by default `<leader>f`) to toggle fullscreen mode for the currently selected buffer.
